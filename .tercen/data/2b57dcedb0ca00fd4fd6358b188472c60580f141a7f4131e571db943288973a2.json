@@ -1,0 +1,424 @@
+{
+ "kind": "ComputedTableSchema",
+ "id": "2b57dcedb0ca00fd4fd6358b188472c60580f141a7f4131e571db943288973a2",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "d4b1e2d0-f912-11ef-8f68-9dc17147bbc7",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "2b57dcedb0ca00fd4fd6358b188472c60580f141a7f4131e571db943288973a2"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "",
+ "nRows": 5284,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "7e510f5e-e5bb-4f24-840e-243380916ba4",
+   "name": ".ri",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "994f3b15-540a-4f56-9ae9-b4c8a1e740fa",
+   "name": "diff.contrast",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "175c870f-9384-4a9c-b7d8-24e8adc85544",
+   "name": "diff.logFC",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b75cc1cc-acef-43ef-85ee-ed141f048ef9",
+   "name": "diff.AveExpr",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "3a1e79a3-a510-43e0-8548-8e7225e1d2cd",
+   "name": "diff.t",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "b6517563-e45c-42be-878e-4ad7ee8cb261",
+   "name": "diff.p.value",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "d97973ab-3170-4f5d-aaca-6239435cbb37",
+   "name": "diff.logp",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "08c863d5-7bc6-4a08-89ef-94e73a74115b",
+   "name": "diff.p.rank",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/2b/57/2b57dcedb0ca00fd4fd6358b188472c60580f141a7f4131e571db943288973a2",
+ "relation": {
+  "kind": "Relation",
+  "id": "23170c25-f638-46b9-9934-7823360e1794"
+ },
+ "size": 253120,
+ "query": {
+  "kind": "CubeQuery",
+  "relation": {
+   "kind": "RenameRelation",
+   "id": "61470dae-2ef3-4031-9cf6-9a21751d1d17",
+   "relation": {
+    "kind": "CompositeRelation",
+    "id": "2356f764-1159-4ab3-b0aa-eeaadca2d65b",
+    "joinOperators": [
+     {
+      "kind": "JoinOperator",
+      "joinType": "leftOuter",
+      "leftPair": {
+       "kind": "ColumnPair",
+       "lColumns": [
+        ".ri"
+       ],
+       "rColumns": [
+        "4d94e0c31fae5676109028422b1dd51e794e6fc7193e771dc6dd0ea08b220414._rids"
+       ]
+      },
+      "rightRelation": {
+       "kind": "SimpleRelation",
+       "id": "4d94e0c31fae5676109028422b1dd51e794e6fc7193e771dc6dd0ea08b220414",
+       "index": 2
+      }
+     }
+    ],
+    "mainRelation": {
+     "kind": "CompositeRelation",
+     "id": "1dd6d5d8-69f5-4ab6-b36a-832c6f922b7b",
+     "joinOperators": [
+      {
+       "kind": "JoinOperator",
+       "joinType": "leftOuter",
+       "leftPair": {
+        "kind": "ColumnPair",
+        "lColumns": [
+         ".ci"
+        ],
+        "rColumns": [
+         "ad539fb36c4d6f8c21dc18bb239fadd3e6f344938169ae2d6ddfaa52910d3368._rids"
+        ]
+       },
+       "rightRelation": {
+        "kind": "SimpleRelation",
+        "id": "ad539fb36c4d6f8c21dc18bb239fadd3e6f344938169ae2d6ddfaa52910d3368",
+        "index": 1
+       }
+      }
+     ],
+     "mainRelation": {
+      "kind": "SimpleRelation",
+      "id": "5a5811ab2a8f8213effdb663d0c9666fce11254905e4a9a8d5c56a2f6341132d",
+      "index": 0
+     }
+    }
+   },
+   "inNames": [
+    ".y",
+    ".ci",
+    ".ri",
+    "log10.log",
+    "5a5811ab2a8f8213effdb663d0c9666fce11254905e4a9a8d5c56a2f6341132d._rids",
+    "5a5811ab2a8f8213effdb663d0c9666fce11254905e4a9a8d5c56a2f6341132d.tlbId",
+    "rfu..SampleType",
+    "rfu..Sex",
+    "rfu..Age",
+    "rfu..rowId",
+    "ad539fb36c4d6f8c21dc18bb239fadd3e6f344938169ae2d6ddfaa52910d3368._rids",
+    "ad539fb36c4d6f8c21dc18bb239fadd3e6f344938169ae2d6ddfaa52910d3368.tlbId",
+    "rfu..seqId_name",
+    "feat.UniProt",
+    "rfu..Target",
+    "feat.Organism",
+    "4d94e0c31fae5676109028422b1dd51e794e6fc7193e771dc6dd0ea08b220414._rids",
+    "4d94e0c31fae5676109028422b1dd51e794e6fc7193e771dc6dd0ea08b220414.tlbId",
+    "rfu..SampleType",
+    "rfu..Sex",
+    "rfu..Age",
+    "rfu..rowId",
+    "rfu..seqId_name",
+    "feat.UniProt",
+    "rfu..Target",
+    "feat.Organism"
+   ],
+   "outNames": [
+    ".y",
+    ".ci",
+    ".ri",
+    "log10.log",
+    "5a5811ab2a8f8213effdb663d0c9666fce11254905e4a9a8d5c56a2f6341132d._rids",
+    "5a5811ab2a8f8213effdb663d0c9666fce11254905e4a9a8d5c56a2f6341132d.tlbId",
+    "rfu..SampleType",
+    "rfu..Sex",
+    "rfu..Age",
+    "rfu..rowId",
+    "ad539fb36c4d6f8c21dc18bb239fadd3e6f344938169ae2d6ddfaa52910d3368._rids",
+    "ad539fb36c4d6f8c21dc18bb239fadd3e6f344938169ae2d6ddfaa52910d3368.tlbId",
+    "rfu..seqId_name",
+    "feat.UniProt",
+    "rfu..Target",
+    "feat.Organism",
+    "4d94e0c31fae5676109028422b1dd51e794e6fc7193e771dc6dd0ea08b220414._rids",
+    "4d94e0c31fae5676109028422b1dd51e794e6fc7193e771dc6dd0ea08b220414.tlbId",
+    "log10..SampleType",
+    "log10..Sex",
+    "log10..Age",
+    "log10..rowId",
+    "log10..seqId_name",
+    "log10..UniProt",
+    "log10..Target",
+    "log10..Organism"
+   ]
+  },
+  "colColumns": [
+   {
+    "kind": "Factor",
+    "name": "log10..SampleType",
+    "type": "string"
+   }
+  ],
+  "rowColumns": [
+   {
+    "kind": "Factor",
+    "name": "log10..seqId_name",
+    "type": "string"
+   },
+   {
+    "kind": "Factor",
+    "name": "log10..Target",
+    "type": "string"
+   }
+  ],
+  "axisQueries": [
+   {
+    "kind": "CubeAxisQuery",
+    "pointSize": 4,
+    "chartType": "point",
+    "yAxis": {
+     "kind": "Factor",
+     "name": "log10.log",
+     "type": "double"
+    },
+    "yAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "xAxis": {
+     "kind": "Factor",
+     "name": "log10..Sex",
+     "type": "string"
+    },
+    "xAxisSettings": {
+     "kind": "AxisSettings",
+     "meta": []
+    },
+    "errors": [],
+    "labels": [
+     {
+      "kind": "Factor",
+      "name": "log10..rowId",
+      "type": "int32"
+     }
+    ],
+    "colors": [],
+    "preprocessors": []
+   }
+  ],
+  "filters": {
+   "kind": "Filters",
+   "removeNaN": true,
+   "namedFilters": [
+    {
+     "kind": "NamedFilter",
+     "logical": "and",
+     "not": false,
+     "filterExprs": [
+      {
+       "kind": "FilterExpr",
+       "filterOp": "equals",
+       "stringValue": "Sample",
+       "factor": {
+        "kind": "Factor",
+        "name": "log10..SampleType",
+        "type": "string"
+       },
+       "preProcessors": []
+      }
+     ],
+     "meta": [],
+     "name": "log10..SampleType"
+    }
+   ]
+  },
+  "operatorSettings": {
+   "kind": "OperatorSettings",
+   "namespace": "diff",
+   "operatorRef": {
+    "kind": "OperatorRef",
+    "name": "LIMMA PSA",
+    "version": "0.0.1",
+    "operatorId": "8",
+    "operatorKind": "ROperator",
+    "propertyValues": [],
+    "url": {
+     "kind": "Url",
+     "uri": "https://github.com/pamgene/limma_psa_operator"
+    },
+    "operatorSpec": {
+     "kind": "OperatorSpec",
+     "ontologyUri": "",
+     "ontologyVersion": "",
+     "inputSpecs": [],
+     "outputSpecs": []
+    }
+   },
+   "environment": [
+    {
+     "kind": "Pair",
+     "key": "cpu",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "ram",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "cpu-shares",
+     "value": "0"
+    },
+    {
+     "kind": "Pair",
+     "key": "tercen.collect.stats",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "debug",
+     "value": "false"
+    },
+    {
+     "kind": "Pair",
+     "key": "preferred.run.ctx",
+     "value": ""
+    }
+   ],
+   "operatorModel": {
+    "kind": "OperatorModel"
+   }
+  },
+  "qtHash": "",
+  "columnHash": "",
+  "rowHash": ""
+ }
+}

@@ -1,0 +1,65 @@
+{
+ "kind": "TableSchema",
+ "id": "9",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "example_data_measurements.tsv",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "10",
+ "nRows": 0,
+ "columns": [],
+ "dataDirectory": "",
+ "relation": {
+  "kind": "CompositeRelation",
+  "id": "7221b870-71f9-4581-8427-99437bef9537",
+  "joinOperators": [
+   {
+    "kind": "JoinOperator",
+    "joinType": "",
+    "leftPair": {
+     "kind": "ColumnPair",
+     "lColumns": [
+      "rowId"
+     ],
+     "rColumns": [
+      "baa839130457405b84d4319b11dc8ae1ba8f8d6d1543cc3365578076fef1ff10._rids"
+     ]
+    },
+    "rightRelation": {
+     "kind": "SimpleRelation",
+     "id": "baa839130457405b84d4319b11dc8ae1ba8f8d6d1543cc3365578076fef1ff10",
+     "index": 0
+    }
+   }
+  ],
+  "mainRelation": {
+   "kind": "SimpleRelation",
+   "id": "c2e2ac58f036ba67368df4083ae6475514649db07cf747cd3568803c50e4e029",
+   "index": 0
+  }
+ },
+ "size": 0
+}

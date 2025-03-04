@@ -1,0 +1,137 @@
+{
+ "kind": "TableSchema",
+ "id": "c5be58d541714d7c037dcc8d01c553aa122b00987f15f4f2b1f85f7616ed6e15",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "UniProt2Reactome.txt",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "c5be58d541714d7c037dcc8d01c553aa122b00987f15f4f2b1f85f7616ed6e15"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "10",
+ "nRows": 302009,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "64df21d6-d5e3-4e1e-bda7-e0c0d91d4ed5",
+   "name": "uniprotID",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "ea07dfaf-92ae-492f-a153-bdd61d3c0b5e",
+   "name": "reactomeID",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "477857f3-d5b5-4f3b-b332-2a1faf9e56fd",
+   "name": "reactomeURL",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "a272fa86-fdf9-4151-8fb6-e633a53c5e3f",
+   "name": "pathway",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "8005428c-ee27-4f10-a07a-7ecd4965cac9",
+   "name": "evidence",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "38f4a5f5-d21c-48ea-a64c-942fc35a6d6d",
+   "name": "organism",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/c5/be/c5be58d541714d7c037dcc8d01c553aa122b00987f15f4f2b1f85f7616ed6e15",
+ "relation": {
+  "kind": "Relation",
+  "id": "f1526309-213e-4a2e-9d0a-591686a60012"
+ },
+ "size": 25701960
+}

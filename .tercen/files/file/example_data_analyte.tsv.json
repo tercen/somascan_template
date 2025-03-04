@@ -1,0 +1,42 @@
+{
+ "kind": "FileDocument",
+ "id": "file/example_data_analyte.tsv",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "example_data_analyte.tsv",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "12",
+ "dataUri": "lfs/c2/fc/7dd27b387e80df2327b989a4031d97853b6bf19fd1395b0f34092cc9c701",
+ "metadata": {
+  "kind": "FileMetadata",
+  "contentType": "",
+  "cacheControl": "",
+  "contentEncoding": "",
+  "contentLanguage": "",
+  "md5Hash": ""
+ },
+ "size": 1046315
+}

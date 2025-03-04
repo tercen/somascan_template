@@ -1,0 +1,112 @@
+{
+ "kind": "TableSchema",
+ "id": "c2e2ac58f036ba67368df4083ae6475514649db07cf747cd3568803c50e4e029",
+ "isDeleted": false,
+ "rev": "",
+ "description": "",
+ "name": "example_data_measurements.tsv gather values",
+ "acl": {
+  "kind": "Acl",
+  "owner": "",
+  "aces": []
+ },
+ "createdDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "lastModifiedDate": {
+  "kind": "Date",
+  "value": ""
+ },
+ "urls": [],
+ "tags": [],
+ "meta": [
+  {
+   "kind": "Pair",
+   "key": "hidden",
+   "value": "true"
+  },
+  {
+   "kind": "Pair",
+   "key": "SHA256",
+   "value": "c2e2ac58f036ba67368df4083ae6475514649db07cf747cd3568803c50e4e029"
+  }
+ ],
+ "url": {
+  "kind": "Url",
+  "uri": ""
+ },
+ "version": "",
+ "isPublic": false,
+ "projectId": "",
+ "folderId": "10",
+ "nRows": 1014528,
+ "columns": [
+  {
+   "kind": "ColumnSchema",
+   "id": "346e1ace-3242-4741-a91e-02044c4034b4",
+   "name": "seqId_name",
+   "type": "string",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "1f3a1fe5-5a0c-452b-9467-6b666fa553aa",
+   "name": "seqId_value",
+   "type": "double",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "fb16d439-e2f4-4260-805d-6946f57fd41e",
+   "name": "rowId",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  },
+  {
+   "kind": "ColumnSchema",
+   "id": "3d48653f-87ab-4ebd-a0d7-517892aa0b6b",
+   "name": "colId",
+   "type": "int32",
+   "nRows": 0,
+   "size": -1,
+   "metaData": {
+    "kind": "ColumnSchemaMetaData",
+    "sort": [],
+    "ascending": true,
+    "quartiles": [],
+    "properties": []
+   }
+  }
+ ],
+ "dataDirectory": "data/c2/e2/c2e2ac58f036ba67368df4083ae6475514649db07cf747cd3568803c50e4e029",
+ "relation": {
+  "kind": "Relation",
+  "id": "6562f5a0-a0b7-4afa-b2a4-b81bc45628f5"
+ },
+ "size": 8225480
+}
