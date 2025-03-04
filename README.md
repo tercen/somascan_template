@@ -15,6 +15,16 @@ measurements <- as.data.frame(soma_obj)
 write.table(analyte_info, file= "example_data_analyte.tsv", sep = "\t", row.names = FALSE)
 write.table(measurements, file= "example_data_measurements.tsv", sep = "\t", row.names=FALSE)
 ```
+# Import
+
+CSV importer was used.
+
+During import, the advanced button was used to gather the colmuns with pattern `seq`
+The following was used as the names and values of the gathered columns.
+
+`seqId_value`
+
+`seqId_name`
 
 
 # Preprocessing
